@@ -1,0 +1,11 @@
+A DroneLocator class (in drones.jar) has the following method:
+
+DroneLocator.fetch(String droneID);
+
+Calling this method will result in an Producer that will emit the location of the drone periodically.
+
+For example, DroneLocator.fetch("DR01");
+
+Subscribe to the Producer returned by fetch and print the location detail 
+received. If the Producer terminates, report the completion of data emits. 
+When the user keys in a "end" ask the Observable to stop emitting data.
