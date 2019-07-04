@@ -1,0 +1,6 @@
+Create a program that has an producer and a subscriber. 
+
+The producer takes in a list of ticker symbols, goes out to StockPrice and gets the price for that symbol. Let it emit the data at the rate of one value per second. Once all values are completed it will repeat the loop of sending the data for the tickers.
+
+The subscriber receives the data from the producer and prints out the ticker symbol and the price.
+
