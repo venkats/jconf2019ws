@@ -1,0 +1,7 @@
+This repository contains all the code examples and lab solutions written during the "Building Reactive Applications" workshop offered in Medellin, Colombia, on July 4th, 2019.
+
+Thank you for attending.
+
+Venkat Subramaniam
+venkats@agiledeveloper.com
+@venkat_s
