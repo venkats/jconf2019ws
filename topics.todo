@@ -7,45 +7,45 @@ Access:
 URL: https://github.com/venkats/jconf2019ws
                     
 Part 0: Reactive Programming:
--What's that?
--Why do we need yet another programming model?
--Where did it come from?
--Core concerns
- -Scalability — Elastic
- -Responsiveness
- -Resilience
- -Communication — Message Driven
--Reactive Applications
--A way to build a scalable architecture that's
+✓What's that?
+✓Why do we need yet another programming model?
+✓Where did it come from?
+✓Core concerns
+ ✓Scalability — Elastic
+ ✓Responsiveness
+ ✓Resilience
+ ✓Communication — Message Driven
+✓Reactive Applications
+✓A way to build a scalable architecture that's
 	resilient and quick to react to stimuli
--It's about creating an architecture for an application that is
- -Message-Driven
- -Elastic
- -Responsive
- -Resilient
+✓It's about creating an architecture for an application that is
+ ✓Message-Driven
+ ✓Elastic
+ ✓Responsive
+ ✓Resilient
 
 Part 1: Where did we come from:
--These concerns are not new
--Isn't multithreading enough?
--Are Futures not enough?
- - Low level of abstraction
- - Hard to compose
- - Easy to block on gets - poor utilization
--Ah, but we can use callbacks, no?
- - better, but hard to compose as well
--OK, so what is it really?
--Dataflow and composition of events
--Let's think Streams
--What are streams?
--Exercise: Let's simulate an application
+✓These concerns are not new
+✓Isn't multithreading enough?
+✓Are Futures not enough?
+ ✓ Low level of abstraction
+ ✓ Hard to compose
+ ✓ Easy to block on gets - poor utilization
+✓Ah, but we can use callbacks, no?
+ ✓ better, but hard to compose as well
+✓OK, so what is it really?
+✓Dataflow and composition of events
+✓Let's think Streams
+✓What are streams?
+✓Exercise: Let's simulate an application
 
 Part 2: Core Ideas:
--Efficiency, Scale
--Efficiency is attained not by doing tasks faster,
+✓Efficiency, Scale
+✓Efficiency is attained not by doing tasks faster,
 	but by avoiding those that should't be done in the first place
--How to do that?
--Reactive is a next logical step from functional programming
--Employ function composition and lazy evaluations
+✓How to do that?
+✓Reactive is a next logical step from functional programming
+✓Employ function composition and lazy evaluations
 
 Part 3: Observable:
 -The observer pattern
