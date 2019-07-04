@@ -1,0 +1,1 @@
+Write a subscriber to the DroneLocator for id "DR01". Write the subscriber in such a way that it will report only 25 emits but only after the altitude crosses above a value of 50.
