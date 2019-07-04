@@ -1,0 +1,1 @@
+Implement the subscriber so that it requests for 10 values to be sent by the publisher. Once the subscriber receives a value, let it ask for another one to be sent, but only if the altitude of the drone is less than 50.
