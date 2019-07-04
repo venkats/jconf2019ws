@@ -1,0 +1,1 @@
+The DroneLocator has one faulty drone DR10 that seems to crash. Use that drone as ID, and see what happens when you subscribe to it. Gracefully deal with the error.
