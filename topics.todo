@@ -1,0 +1,96 @@
+Building Reactive Applications:
+Venkat Subramaniam
+venkats@agiledeveloper.com
+Twitter: @venkat s
+
+Access:
+URL: https://github.com/venkats/jconf2019ws
+                    
+Part 0: Reactive Programming:
+-What's that?
+-Why do we need yet another programming model?
+-Where did it come from?
+-Core concerns
+ -Scalability — Elastic
+ -Responsiveness
+ -Resilience
+ -Communication — Message Driven
+-Reactive Applications
+-A way to build a scalable architecture that's
+	resilient and quick to react to stimuli
+-It's about creating an architecture for an application that is
+ -Message-Driven
+ -Elastic
+ -Responsive
+ -Resilient
+
+Part 1: Where did we come from:
+-These concerns are not new
+-Isn't multithreading enough?
+-Are Futures not enough?
+ - Low level of abstraction
+ - Hard to compose
+ - Easy to block on gets - poor utilization
+-Ah, but we can use callbacks, no?
+ - better, but hard to compose as well
+-OK, so what is it really?
+-Dataflow and composition of events
+-Let's think Streams
+-What are streams?
+-Exercise: Let's simulate an application
+
+Part 2: Core Ideas:
+-Efficiency, Scale
+-Efficiency is attained not by doing tasks faster,
+	but by avoiding those that should't be done in the first place
+-How to do that?
+-Reactive is a next logical step from functional programming
+-Employ function composition and lazy evaluations
+
+Part 3: Observable:
+-The observer pattern
+-Iterator vs. observers
+-Observable vs. the pattern
+-Observer plus
+	-signal end of data stream
+	-channel to propagate error
+	-hot, cold, synchronous, asynchronous
+	-highly compose-able
+-Let's use observable
+ -Creating an observable
+ -Creating a subscriber
+ -Using Action to implement
+ -Using Lambda
+-Creating custom observable
+-Exercise: Stock fetch 
+
+Part 4: Controlling Interaction:
+-Signaling data termination
+-Unsubscribing
+-Exercise: Interacting with a Drone
+-skip
+-SkipWhile
+-take
+-takeWhile
+-Exercise: Selectively Interacting with a Drone 
+
+Part 5: Handling Failures:
+-What if things go wrong?
+-Resilience
+-Dealing with errors
+-Switching services on failure
+-Exercise: Handling Failures
+
+Part 6: Subscriptions:
+-hot vs. cold observables
+-Exercise: Hot or Cold?
+
+Part 7: Slow Subscribers:
+-synchronous
+-asynchronous
+-Speed of notification
+-Sampling
+-Implementing Producer for backpressure handling
+-Exercise: Manage Threads
+
+Summary:
