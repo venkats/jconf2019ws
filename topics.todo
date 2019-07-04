@@ -48,49 +48,49 @@ Part 2: Core Ideas:
 ✓Employ function composition and lazy evaluations
 
 Part 3: Observable:
--The observer pattern
--Iterator vs. observers
--Observable vs. the pattern
--Observer plus
-	-signal end of data stream
-	-channel to propagate error
-	-hot, cold, synchronous, asynchronous
-	-highly compose-able
--Let's use observable
- -Creating an observable
- -Creating a subscriber
- -Using Action to implement
- -Using Lambda
--Creating custom observable
--Exercise: Stock fetch 
+✓The observer pattern
+✓Iterator vs. observers
+✓Observable vs. the pattern
+✓Observer plus
+	✓signal end of data stream
+	✓channel to propagate error
+	✓hot, cold, synchronous, asynchronous
+	✓highly compose-able
+✓Let's use observable
+ ✓Creating an observable
+ ✓Creating a subscriber
+ ✓Using Action to implement
+ ✓Using Lambda
+✓Creating custom observable
+✓Exercise: Stock fetch 
 
 Part 4: Controlling Interaction:
--Signaling data termination
--Unsubscribing
--Exercise: Interacting with a Drone
--skip
--SkipWhile
--take
--takeWhile
--Exercise: Selectively Interacting with a Drone 
+✓Signaling data termination
+✓Unsubscribing
+✓Exercise: Interacting with a Drone
+✓skip
+✓SkipWhile
+✓take
+✓takeWhile
+✓Exercise: Selectively Interacting with a Drone 
 
 Part 5: Handling Failures:
--What if things go wrong?
--Resilience
--Dealing with errors
--Switching services on failure
--Exercise: Handling Failures
+✓What if things go wrong?
+✓Resilience
+✓Dealing with errors
+✓Switching services on failure
+✓Exercise: Handling Failures
 
 Part 6: Subscriptions:
--hot vs. cold observables
--Exercise: Hot or Cold?
+✓hot vs. cold observables
+✓Exercise: Hot or Cold?
 
 Part 7: Slow Subscribers:
--synchronous
--asynchronous
--Speed of notification
--Sampling
--Implementing Producer for backpressure handling
--Exercise: Manage Threads
+✓synchronous
+✓asynchronous
+✓Speed of notification
+✓Sampling
+✓Implementing Producer for backpressure handling
+✓Exercise: Manage Threads
 
 Summary:
